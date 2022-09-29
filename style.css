@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    background-color: #2196F3;
+    grid-template-areas:
+        'left-container left-container left-container right-container'
+    ;
+   transition: ;
+}
+
+.right-container {
+    grid-area: right-container;
+    background-color: #2196F3;
+}
+
+.left-container {
+    grid-area: left-container;
+}
+
+.container {
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        "mail mail calender calender internet store"
+    ;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.mail {
+    grid-area: mail;
+    background-color: rgb(219, 158, 77);
+}
+
+.calender {
+    grid-area: calender;
+    background-color: rgb(134, 104, 65);
+}
+
+.internet {
+    grid-area: internet;
+    background-color: rgb(169, 218, 163);
+}
+
+.store {
+    grid-area: store;
+    background-color: rgb(231, 154, 53);
+}
+
+.container div {
+    height: 200px;
+}
+
+.second-container {
+    margin: auto;
+    display: grid;
+    grid-template-areas: 'peoples peoples photos photos maps sports'
+    ;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.peoples {
+    grid-area: peoples;
+    background-color: rgb(219, 77, 77);
+}
+
+.photos {
+    grid-area: photos;
+    background-color: rgb(175, 253, 101);
+}
+
+.maps {
+    grid-area: maps;
+    background-color: #10aff8;
+}
+
+.sports {
+    grid-area: sports;
+    background-color: rgb(85, 10, 104);
+}
+
+.second-container div {
+    height: 200px;
+}
+
+.third-container {
+    margin: auto;
+    display: grid;
+    grid-template-areas: 'messaging messaging finance finance sky sky '
+    ;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.messaging {
+    grid-area: messaging;
+    background-color: rgb(219, 77, 77);
+}
+
+.finance {
+    grid-area: finance;
+    background-color: rgb(175, 253, 101);
+}
+
+.sky {
+    grid-area: sky;
+    background-color: #10aff8;
+}
+
+
+.third-container div {
+    height: 200px;
+}
+
+.fourth-container {
+    margin: auto;
+    display: grid;
+    grid-template-areas: 'desktop desktop weather weather news news '
+    ;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.desktop {
+    grid-area: desktop;
+    background-color: rgb(219, 77, 77);
+}
+
+.weather {
+    grid-area: weather;
+    background-color: rgb(175, 253, 101);
+}
+
+.news {
+    grid-area: news;
+    background-color: #10aff8;
+}
+
+
+.fourth-container div {
+    height: 200px;
+}
+
+.parent-bing {
+    margin: auto;
+    display: grid;
+    grid-template-areas: 'bing'
+    ;
+    gap: 10px;
+    padding: 10px;
+}
+
+.bing {
+    grid-area: bing;
+    background-color: rgb(255, 0, 217);
+}
+
+.parent-bing div {
+    height: 200px;
+}
+.right-third {
+    display: grid;
+    grid-template-areas: 'games sports'
+    ;
+    gap: 10px;
+    padding: 10px;
+}
+
+.games {
+    grid-area: games;
+    background-color: rgb(15, 52, 54);
+}
+.sports {
+    grid-area: sports;
+    background-color: rgb(14, 3, 5);
+}
+.right-third div{
+    height: 200px;
+}
